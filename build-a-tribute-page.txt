@@ -1,0 +1,168 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-with, initial-scale=1">
+    <meta name="description" content="A tribute page to David Bowie, his resumed biography and his most popular songs.">
+    <title id="title">Tribute to David Bowie</title>
+    <link rel="stylesheet" href="styles.css">
+  <body>
+    <main id="main">
+      <h1>David Bowie</h1>
+        <p class="subtitle">Can you hear him Major Tom?</p>
+      <figure id="img-div">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fartlogic-res.cloudinary.com%2Fw_1600%2Ch_1600%2Cc_limit%2Cf_auto%2Cfl_lossy%2Cq_auto%2Fws-denisoregan%2Fusr%2Fimages%2Fartworks%2Fmain_image%2Fitems%2Fcc%2Fcc17d8076dbf428eae08552f47dd211c%2F04-david-edmonton-02.jpg&f=1&nofb=1&ipt=61ca497360b6ce5c7c191b2450c9fb56f826f1c975ae8132b5d5fa051624600c&ipo=images" id="image" alt="david bowie's photo on stage"></img>
+        <figcaption id="img-caption">DAVID BOWIE, David Bowie Edmonton, 1983 | Denis O'Regan Photographer</figcaption>
+      </figure>
+      <h2>The Space man</h2>
+      <p id="tribute-info">Rock star David Bowie's first hit was the song "Space Oddity" in 1969. The original pop chameleon, Bowie became a fantastical sci-fi character for his breakout Ziggy Stardust album. He later co-wrote "Fame" with Carlos Alomar and John Lennon, which became his first American No. 1 single in 1975. An accomplished actor, Bowie starred in The Man Who Fell to Earth in 1976. He was inducted into the Rock and Roll Hall of Fame in 1996. Shortly after releasing his final album, Bowie died from cancer on January 10, 2016. <a href="https://www.biography.com/musicians/david-bowie" id="tribute-link" target="_blank">See more</a></p>
+      <h3>Discography</h3>
+      <ul class="disco">
+        <li>(1967) David Bowie </li>
+        <li>(1969) David Bowie [f] </li>
+        <li>(1970) The Man Who Sold the World </li>
+        <li>(1971) Hunky Dory </li>
+        <li>(1972) The Rise and Fall of Ziggy Stardust and the Spiders from Mars </li>
+        <li>(1973) Aladdin Sane </li>
+        <li>(1973) Pin Ups </li>
+        <li>(1974) Diamond Dogs </li>
+        <li>(1975) Young Americans </li>
+        <li>(1976) Station to Station </li>
+        <li>(1977) Low </li>
+        <li>(1977) "Heroes" </li>
+        <li>(1979) Lodger </li>
+        <li>(1980) Scary Monsters (and Super Creeps) </li>
+        <li>(1983) Let's Dance </li>
+        <li>(1984) Tonight </li>
+        <li>(1987) Never Let Me Down </li>
+        <li>(1993) Black Tie White Noise </li>
+        <li>(1993) The Buddha of Suburbia </li>
+        <li>(1995) Outside </li>
+        <li>(1997) Earthling </li>
+        <li>(1999) Hours </li>
+        <li>(2002) Heathen </li>
+        <li>(2003) Reality</li>
+        <li>(2013) The Next Day </li>
+        <li>(2016) Blackstar </li>
+        <li>(posthumous, 2022) Toy </li>
+      </ul>
+      <h4>Greatest Artist of All Times</h4>
+      <p class="finale">During his lifetime, his record sales, estimated at over 100 million worldwide, made him one of the best-selling musicians of all time. Often dubbed the "chameleon of rock" due to his constant musical reinventions, he was inducted into the Rock and Roll Hall of Fame in 1996. Rolling Stone ranked him among the greatest artists in history. As of 2022, Bowie was the best-selling vinyl artist of the 21st century.
+      <p class="visit">To know more about this incredible musician please visit his <a href="https://en.wikipedia.org/wiki/David_Bowie">Wiki</a> page.
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  background-color: #EDFCFD;
+  font-size: 16px;
+  font-family: optima, sans serif;
+  color: #2d2d34
+}
+
+main {
+  background-color: #e2dcde;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 50px; 
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 4em;
+}
+
+.subtitle {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5;
+}
+
+figure {
+  background-color: #ceb1be;
+  width: 98%;
+  height: auto;
+  margin: 50px auto 0;
+  border: 1px solid #ceb1be;
+}
+
+figure > img {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin: 30px auto 10px;
+  padding: 0 20px;
+  display: block;
+}
+
+figure > figcaption {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#tribute-info,
+.disco,
+.finale {
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+#tribute-info,
+h2,
+h3,
+h4,
+.finale {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  padding: 0 40px;;
+  margin: 30px auto 10px;
+}
+
+h2,
+h3,
+h4,
+.visit {
+  font-size: 1.5em;
+}
+
+.disco {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  padding: 0 40px;;
+  margin: 30px auto 10px;
+  list-style-type: none;
+}
+
+li{
+  letter-spacing: 0.1em;
+  margin-bottom: 2px;
+}
+
+.visit {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  margin: 80px auto 10px;
+  text-align: center;
+  font-weight: 600;
+  word-spacing: 0.1em;
+  font-family: arial, sans-serif;
+}
+
+** end of undefined **
+
